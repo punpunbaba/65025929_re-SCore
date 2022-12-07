@@ -1,0 +1,159 @@
+*   { 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+
+}
+.clearfix{
+    clear: both;
+}
+.row{
+    border:solid rgb(8, 49, 253);
+    width: 100%;
+}
+
+.topnav{
+    background-color: aqua;
+}
+.leftcolumn1{
+    border: 2px solid black;
+    width: 70%;
+    background-color: gray;
+    float: left;
+}
+.leftMainblock1,.leftMainblock2,.midsideblock1,.midsideblock2,.midsideblock3{
+    width: 100%;
+    background-color: white;
+}
+.parentblock1{
+    width: 95%;
+    background-color: aquamarine;
+    float: left;
+
+}
+.childblock1 {
+    margin: 10px;
+    padding: 10px;
+    width: 23%;
+    background: red;
+    float: inherit;
+}
+.childblock2 {
+    margin: 10px;
+    padding: 10px;
+    width: 23%;
+    background: rgb(0, 255, 140);
+    float: inherit;
+ 
+}
+.childblock3 {
+    margin: 10px;
+    padding: 10px;
+    width: 23%;
+    background: red;
+    float: inherit;
+}
+.childblock4 {
+    margin: 10px;
+    padding: 10px;
+    width: 23%;
+    background: rgb(0, 255, 140);
+    float: inherit;
+}
+.parentblock2{
+    width: 45%;
+    background: rgb(255, 0, 217);
+    float: left;
+}
+.parentblock3{
+    width: 45%;
+    background-color: rgb(21, 255, 0);
+    float: left;
+}
+
+.childblock5{
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    background: rgb(1, 248, 87);
+    float: inherit;
+}
+.childblock6{
+    margin: 10px;
+    padding: 10px;
+    width:  auto;
+    background: rgb(255, 0, 179);
+    float: inherit;
+}
+.midside{
+    width: 247px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: rgba(255, 156, 7, 0.396);
+    float: left;
+}
+.parentblock{
+    margin: 10px;
+    padding: 7.5px;
+    width: 95%;
+    background-color: aquamarine;
+    float: inherit;
+}
+.childblock{
+    margin: 10px;
+    padding: 6px;
+    width: auto;
+    background: rgb(1, 248, 87);
+    float: inherit;
+}
+
+.rightside{
+    width: 247px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: rgba(255, 7, 176, 0.396);
+    float: left;
+}
+.rightcolumn1{
+    margin: 10px;
+    padding: 10apx;
+    width:  auto;
+    border: 2px solid black;
+    background: rgb(255, 0, 179);
+    float: left;
+}
+.rightcolumn2{
+    margin: 10px;
+    padding: 10apx;
+    width:  auto;
+    border: 2px solid black;
+    background: rgb(255, 0, 179);
+    float: left;
+}
+.rightcolumn3{
+    margin: 10px;
+    padding: 10apx;
+    width:  auto;
+    border: 2px solid black;
+    background: rgb(255, 0, 179);
+    float: left;
+}
+.rightcolumn4{
+    margin: 10px;
+    padding: 10apx;
+    width:  auto;
+    border: 2px solid black;
+    background: rgb(255, 0, 179);
+    float: left;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: pink;
+    margin-top: 20px;
+}
